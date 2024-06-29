@@ -31,4 +31,26 @@ public class Person {
     return bornDate;
    }
 
+
+//    public void print(){
+//    System.out.println("Person: " + name + ", " + lastName + ", " + dni + "y " + bornDate);
+//    }
+
+public void print(){
+    System.out.println(this.toString());
+
 }
+
+   @Override
+   public String toString(){
+    return "Person [name= " + ", lastName=" + "]";
+   }
+
+}
+
+
+//    public void printPer(){
+//     System.out.println("Person: " + name + ", " + lastName + ".");
+//    }
+
+
